@@ -1,0 +1,3 @@
+vlc -vvv -I "dummy" Spider-Man.Far.from.Home.2019.VOSTFR.BRRip.x264-Time2Watch.mp4 --sout '#standard{access=utp,mux=avi,dst=localhost:8000}'
+
+cvlc -vvv ./Spider-Man.mp4 --sout '#standard{access=udp,dst=localhost:8000}'
