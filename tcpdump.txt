@@ -1,0 +1,2 @@
+//Visualise traffic on port 8000 and localhost
+sudo tcpdump -i enp0s3 port 8000

@@ -1,3 +1,7 @@
 vlc -vvv -I "dummy" Spider-Man.Far.from.Home.2019.VOSTFR.BRRip.x264-Time2Watch.mp4 --sout '#standard{access=utp,mux=avi,dst=localhost:8000}'
 
 cvlc -vvv ./Spider-Man.mp4 --sout '#standard{access=udp,dst=localhost:8000}'
+
+--sout-transcode-vb=800000 // débit vidéo pour de l'audio ab
+
+//voir  http://leslivresoublies.free.fr/leslivresoublies/VLC/Ligne/Les_differents_flux.html
